@@ -231,6 +231,44 @@ div.box_right{
     }
 }
 
+@media (max-height: 900px){
+    .container{
+        height: 100%;
+        padding-top: 0;
+        margin-top: 15px;
+    }
+
+    div.box_left,
+    div.box_right{
+        margin-top: 0;
+    }
+
+    div.box_left{
+        margin-top: 20px;
+    }
+
+    .box_left .fa-eye{
+        padding-top: 14.3px;
+        height: 9.3%;
+    }
+    
+    div.box_right{
+        height: 500px;
+    }
+
+    .box_right p{
+        padding-top: 5px;
+    }
+    
+    .register{
+        margin-top: 0px;
+    }
+
+    .box_right .fa-user, .fa-lock, .fa-envelope{
+        height: 7%;
+        padding-top: 14.1px;
+    }
+}
 
 @media (max-width: 730px){
     .container{
@@ -339,3 +377,4 @@ border-bottom: 1px solid #3a0ca3;
     border-bottom: 1px solid #3a0ca3;
     }   
 }
+
